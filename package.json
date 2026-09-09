@@ -1,0 +1,33 @@
+{
+  "name": "minbpe",
+  "version": "1.0.0",
+  "description": "Minimal, clean code for the (byte-level) Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization.",
+  "type": "module",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "train": "node scripts/train.js",
+    "fetch-ranks": "node scripts/fetch_ranks.js"
+  },
+  "keywords": [
+    "bpe",
+    "byte-pair-encoding",
+    "tokenizer",
+    "llm",
+    "gpt"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

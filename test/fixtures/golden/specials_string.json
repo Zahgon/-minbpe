@@ -1,0 +1,1 @@
+"<|endoftext|>Hello world this is one document\n<|endoftext|>And this is another document\n<|endoftext|><|fim_prefix|>And this one has<|fim_suffix|> tokens.<|fim_middle|> FIM\n<|endoftext|>Last document!!! 👋<|endofprompt|>"
